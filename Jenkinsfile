@@ -32,7 +32,7 @@ pipeline {
                     cest = TimeZone.getTimeZone("CEST")
                     def cest = new Date()
                     println(cest) 
-                    def mailRecipients = 'vsingh@zuelligpharma.com'
+                    def mailRecipients = 'vsingh@dfdfs.com'
                     def jobName = currentBuild.fullDisplayName
                     env.Name = Name
                     env.cest = cest
